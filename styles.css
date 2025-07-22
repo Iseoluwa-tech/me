@@ -26,9 +26,10 @@ header .navbar {
 
 header nav {
   margin-top: 0.5rem;
+  background-color: #0d6efd;
 }
 .theme-toggle {
-  background: none;
+  background-color: #0d6efd;
   border: none;
   font-size: 20px;
   cursor: pointer;
