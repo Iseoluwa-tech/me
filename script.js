@@ -61,4 +61,24 @@ function toggleMenu() {
   const nav = document.getElementById("navLinks");
   nav.classList.toggle("show");
 }
+  const profileThumb = document.getElementById("profileThumb");
+  const imagePopup = document.getElementById("imagePopup");
+  const closePopup = document.getElementById("closePopup");
+
+  profileThumb.addEventListener("click", () => {
+    imagePopup.style.display = "flex";
+  });
+
+  closePopup.addEventListener("click", () => {
+    imagePopup.style.display = "none";
+  });
+
+  // Optional: close popup when clicking outside the image
+  imagePopup.addEventListener("click", (e) => {
+    if (e.target === imagePopup) {
+      imagePopup.style.display = "none";
+    }
+  });
+
+
 
