@@ -13,15 +13,13 @@ body {
   text-decoration: none;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10px 20px;
-   background-color: #0d6efd;
-  position: relative;
-  z-index: 10;
+header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  z-index: -10;
+}
 }
 header .navbar {
   background-color: #0d6efd;
