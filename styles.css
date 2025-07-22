@@ -40,6 +40,9 @@ header nav {
   margin-left: auto;
   z-index: 11;
 }
+.nav-left {
+  Justify content: space-between;
+}
 
 header nav a {
   color: white;
