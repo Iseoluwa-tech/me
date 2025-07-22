@@ -19,7 +19,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 10px 20px;
-  background-color: var(--bg-color);
+   background-color: #0d6efd;
   position: relative;
   z-index: 10;
 }
