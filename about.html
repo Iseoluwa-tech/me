@@ -8,11 +8,15 @@
   <button id="topBtn" title="Go to top">↑</button>
 </head>
 <body>
-<header class="navbar">
-  <div class="nav-left">
-    <img src="logo.jpg" alt="Logo" class="logo-img">
-    <div class="nav-logo">Iseoluwa Gerrard</div>
-  </div>
+<!-- Thumbnail Profile Image -->
+<img src="logo.jpg" alt="Profile" class="profile-thumb" id="profileThumb" />
+
+<!-- Fullscreen Pop-up Modal -->
+<div class="image-popup" id="imagePopup">
+  <span class="close-popup" id="closePopup">&times;</span>
+  <img src="logo.jpg" alt="Full Profile" class="popup-img" />
+</div>
+
 <button id="themeToggle" class="theme-toggle" title="Toggle Theme">🌙</button>
 
   <div class="nav-toggle" onclick="toggleMenu()">☰</div>
